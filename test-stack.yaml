@@ -7,7 +7,6 @@ Parameters:
   EC2InstanceType:
     Description: The Instance Type Chosen for EC2
     Type: String
-    
 Resources:
   TekLoonTestInstance:
     Type: AWS::EC2::Instance
