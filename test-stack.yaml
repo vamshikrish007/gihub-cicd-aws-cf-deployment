@@ -3,12 +3,10 @@ Mappings:
     us-east-1:
       HVM64: ami-02de934ca4f3289e0 
       HVM32: ami-0233c2d874b811deb
-
 Parameters:
   EC2InstanceType:
     Description: The Instance Type Chosen for EC2
     Type: String
-    
 Resources:
   TekLoonTestInstance:
     Type: AWS::EC2::Instance
